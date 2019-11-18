@@ -1,4 +1,5 @@
-# nuxt-wd
+# nuxt-app
+nuxt.js standard config
 
 > nuxt-wd
 
