@@ -1,0 +1,12 @@
+# defaults
+
+last 2 versions
+current node
+ie >= 7
+# Chrome last 2 versions
+# ChromeAndroid last 2 versions
+Android >= 4.0
+iOS >= 10
+Safari >= 9
+> 1%
+not dead

@@ -20,7 +20,13 @@ module.exports = {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  // loading: { color: '#fff' },
+  loading: '~/components/loading.vue',
+  loadingIndicator: {
+    name: 'rectangle-bounce',
+    color: '#0094fe',
+    background: 'white'
+  },
   /*
    ** Global CSS
    */
@@ -30,7 +36,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['@/plugins/3rd/iview', '@/plugins/3rd/i18n'],
+  plugins: ['@/plugins/3rd/iview-design', '@/plugins/3rd/i18n'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -55,6 +61,9 @@ module.exports = {
    ** Build configuration
    */
   build: {
+    babel: {
+      babelrc: true
+    },
     /*
      ** You can extend webpack config here
      */
